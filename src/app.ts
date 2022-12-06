@@ -1,7 +1,7 @@
 import express from "express";
 import {ApiRouter} from "./router";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 class Application {
     public app: express.Application;
