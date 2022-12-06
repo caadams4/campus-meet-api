@@ -5,16 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "gcp-build" : "tsc -p .",
+    "gcp-build": "tsc -p .",
     "start": "node ./build/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/caadams4/campus_meet.git"
-  },
-  "engines": {
-    "node": "=16.18.1"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +23,7 @@
     "axios": "^1.1.3",
     "express": "^4.18.2",
     "node": "^16.18.1",
-    "nvm": "^0.0.4"
+    "nvm": "^0.0.4",
+    "typescript": "^4.9.3"
   }
 }
